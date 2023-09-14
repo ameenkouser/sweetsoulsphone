@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+img{
+    width: 360px;
+    height: 360px;
+}
+.root2{
+    text-align: left;
+    color: black;
+    padding: 12px;
+}
+.h1{
+    color: blue;
+    text-align: center;
+    background-color: yellow;
+}
+.root2{
+    color: blue;
+}
+h2{
+    color: darkblue;
+    font-size: 35px;
+}
+.img1{
+    width: 360px;
+    height: 360px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    color: rgb(5, 199, 252);
+    font-size:22px;
+}
+li{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.box1{
+    background-color: #3498db;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#box2{
+    width: 40%;
+    padding: 15px;
+    box-shadow: 0px 0px 5px grey;
+    background-color: white;
+    border-radius: 5px;
+}
+.row{
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0;
+}
+.btn{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 4px 2px;
+    background-color: #3498db;
+}
+.link{
+    text-decoration: none;
+}
+.act{
+    text-align: center;
+    font-size: 40px;
+}
+.kapil{
+    width: 350px;
+    height: 185px;
+}
+.kp1{
+    font-size: 35px;
+}
+.scott{
+    width: 350px;
+    height: 185px;
+}
+.sam{
+    width: 350px;
+    height: 195px;
+}
+.sonam{
+    width: 350px;
+    height: 175px;
+}
+.nick{
+    width: 350px;
+    height: 185px;
+}
+.kamal{
+    width: 350px;
+    height: 185px;
+}
+.amith{
+    width: 350px;
+    height: 185px;
+}
+#kapil{
+    padding: 25px;
+}
+#scott{
+    padding: 25px;
+}
+#sam{
+    padding: 25px;
+}
+#sonam{
+    padding: 25px;
+}
+#nick{
+    padding: 25px;
+}
+#kamal{
+    padding: 25px;
+}
+#amith{
+    padding: 25px;
+}
+.type1{
+    padding: 25px;
+    font-size: 20px;
+}
+.s1{
+    font-size: 50px;
+    text-align: left;
+}
+.p1{
+    width: 250px;
+    height: 200px;
+    font-size: 50px;
+}
+.p2{
+  
+    width: 200px;
+    height: 220px;
+    border-radius: 100%;
+}
+.h3{
+    font-size:35px;
+}
+.v1{
+    padding: 50px;
+}
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background:white;
+    color:#485e74;
+    line-height:1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1em;
+  }
+  
+  .container{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+  }
+  
+  ul{
+    list-style: none;
+    padding:0;
+  }
+  
+  .brand{
+    text-align: center;
+  }
+  
+  .brand span{
+    color:#fff;
+  }
+  
+  .wrapper{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+  }
+  
+  .wrapper > *{
+    padding: 0em;
+  }
+  
+  .company-info{
+    background:#c9e6ff;
+  }
+  
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+  }
+  
+  .contact{
+    background:#f9feff;
+  }
+  
+  /* FORM STYLES */
+  .contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+  }
+  
+  .contact form label{
+    display:block;
+  }
+  
+  .contact form p{
+    margin:0;
+  }
+  
+  .contact form .full{
+    grid-column: 1 / 3;
+  }
+  
+  .contact form button, .contact form input, .contact form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+  }
+  
+  .contact form button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+  }
+  
+  .contact form button:hover,.contact form button:focus{
+    background:#92bde7;
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
+  }
+  
+  .alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
+  
+  /* LARGE SCREENS */
+  @media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > *{
+      padding:2em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+    }
+  }
+  .appl{
+    background-color: #b700ff;
+  }

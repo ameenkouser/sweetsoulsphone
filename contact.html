@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html" target="_blank" >HOME</a>
+        <a href="management.html" target="_blank">MANAGEMENT</a>
+        <a href="celebrity.html" target="_blank">CELEB</a>
+        <a href="diet.html" target="_blank">DIET</a>
+        <a href="contact.html" target="_blank">CONTACT</a>
+</div>
+
+    <div class="container">
+        <h1 class="brand"><span class="appl">Sweet Souls</span>Please Fill Your Details</h1>
+        <div class="wrapper">
+          <div class="company-info">
+           
+           
+          </div>
+          <div class="contact">
+            <h3>Email Us</h3>
+            <div class="alert">Your message has been sent</div>
+            <form id="contactForm">
+              <p>
+                <label>Name</label>
+                <input type="text" name="name" id="name" required>
+              </p>
+              <p>
+                <label>Company</label>
+                <input type="text" name="company" id="company">
+              </p>
+              <p>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email" required>
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone" id="phone">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5" id="message"></textarea>
+              </p>
+              <p class="full">
+                <button type="submit">Submit</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
